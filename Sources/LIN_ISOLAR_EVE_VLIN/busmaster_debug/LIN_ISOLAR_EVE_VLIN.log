@@ -1,0 +1,40 @@
+﻿生成启动时间为 2015/11/18 10:42:57。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\LIN_ISOLAR_EVE_VLIN\LIN_ISOLAR_EVE_VLIN.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIN_ISOLAR_EVE_VLIN_EXPORTS /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_ISOLAR_EVE_VLIN/" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt EVE_LIN_Controller.cpp HardwareListing.cpp LIN_ISOLAR_EVE_VLIN.cpp LIN_ISOLAR_EVE_VLIN_stdafx.cpp SocketUDP.cpp
+         EVE_LIN_Controller.cpp
+         HardwareListing.cpp
+         LIN_ISOLAR_EVE_VLIN.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\lin_isolar_eve_vlin\LIN_ISOLAR_EVE_VLIN_Defines.h(118): warning C4005: “TRACE”: 宏重定义
+                 C:\WinDDK\7600.16385.1\inc\mfc42\afx.h(251) : 参见“TRACE”的前一个定义
+     1>LIN_ISOLAR_EVE_VLIN.cpp(249): warning C4018: “>=”: 有符号/无符号不匹配
+     1>LIN_ISOLAR_EVE_VLIN.cpp(1086): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>LIN_ISOLAR_EVE_VLIN.cpp(1102): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+         LIN_ISOLAR_EVE_VLIN_stdafx.cpp
+         SocketUDP.cpp
+     1>SocketUDP.cpp(293): warning C4018: “<”: 有符号/无符号不匹配
+     1>SocketUDP.cpp(362): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /nologo /fo"busmaster_debug\LIN_ISOLAR_EVE_VLIN.res" LIN_ISOLAR_EVE_VLIN.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\LIN_ISOLAR_EVE_VLIN\busmaster_debug\LIN_ISOLAR_EVE_VLIN.dll) does not match the Linker's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\bin\busmaster_debug\LIN_ISOLAR_EVE_VLIN.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/bin/busmaster_debug/LIN_ISOLAR_EVE_VLIN.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib" /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 Ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/PDB/LIN_ISOLAR_EVE_VLIN.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"busmaster_debug\LIN_ISOLAR_EVE_VLIN.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug/DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug/Utils.lib"
+         /FORCE /DLL busmaster_debug\LIN_ISOLAR_EVE_VLIN.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_ISOLAR_EVE_VLIN/EVE_LIN_Controller.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_ISOLAR_EVE_VLIN/HardwareListing.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_ISOLAR_EVE_VLIN/LIN_ISOLAR_EVE_VLIN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_ISOLAR_EVE_VLIN/LIN_ISOLAR_EVE_VLIN_stdafx.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_ISOLAR_EVE_VLIN/SocketUDP.obj
+     1>mfcs42.lib(dllmodul.obj) : warning LNK4006: _DllMain@12 已在 MSVCRT.lib(dllmain.obj) 中定义；已忽略第二个定义
+            正在创建库 busmaster_debug\LIN_ISOLAR_EVE_VLIN.lib 和对象 busmaster_debug\LIN_ISOLAR_EVE_VLIN.exp
+     1>C:\XDiag\uoncore\busmaster\Sources\/bin/busmaster_debug/LIN_ISOLAR_EVE_VLIN.dll : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+         LIN_ISOLAR_EVE_VLIN.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\LIN_ISOLAR_EVE_VLIN\busmaster_debug\LIN_ISOLAR_EVE_VLIN.dll
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\LIN_ISOLAR_EVE_VLIN\LIN_ISOLAR_EVE_VLIN.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.72

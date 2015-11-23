@@ -1,0 +1,94 @@
+﻿生成启动时间为 2015/11/18 10:43:35。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\CAN_Kvaser_CAN\CAN_Kvaser_CAN.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>PreBuildEvent:
+         cmd GetKvaserLib.bat
+         :VCEnd
+         Microsoft Windows [版本 6.2.9200]
+         (c) 2012 Microsoft Corporation。保留所有权利。
+         
+         C:\XDiag\uoncore\busmaster\Sources\CAN_Kvaser_CAN>
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/CAN_Kvaser_CAN/" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\XDiag\uoncore\busmaster\Sources\/Localization/include" AcceptanceFilterDlg.cpp CAN_Kvaser_CAN.cpp CANRegAnalysis.cpp ChangeRegisters.cpp HardwareListing.cpp ..\Application\MultiLanguage.cpp
+         AcceptanceFilterDlg.cpp
+         CAN_Kvaser_CAN.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\can_kvaser_can\EXTERNAL/INC/canlib.h(2883): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\xdiag\uoncore\busmaster\sources\can_kvaser_can\EXTERNAL/INC/canlib.h(3645): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>CAN_Kvaser_CAN.cpp(535): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>CAN_Kvaser_CAN.cpp(551): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>CAN_Kvaser_CAN.cpp(740): warning C4244: “=”: 从“unsigned short”转换到“UCHAR”，可能丢失数据
+     1>CAN_Kvaser_CAN.cpp(810): warning C4018: “<”: 有符号/无符号不匹配
+     1>CAN_Kvaser_CAN.cpp(2004): warning C4130: “!=”: 字符串常量地址的逻辑操作
+     1>CAN_Kvaser_CAN.cpp(2048): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>CAN_Kvaser_CAN.cpp(2054): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>CAN_Kvaser_CAN.cpp(2068): warning C4018: “<”: 有符号/无符号不匹配
+     1>CAN_Kvaser_CAN.cpp(2093): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>CAN_Kvaser_CAN.cpp(2059): warning C4100: “dwDriverId”: 未引用的形参
+     1>CAN_Kvaser_CAN.cpp(2297): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>CAN_Kvaser_CAN.cpp(2306): warning C4018: “>=”: 有符号/无符号不匹配
+     1>CAN_Kvaser_CAN.cpp(2317): warning C4244: “=”: 从“int”转换到“UCHAR”，可能丢失数据
+     1>CAN_Kvaser_CAN.cpp(2332): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>CAN_Kvaser_CAN.cpp(2361): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>CAN_Kvaser_CAN.cpp(2392): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>CAN_Kvaser_CAN.cpp(2397): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         CANRegAnalysis.cpp
+         ChangeRegisters.cpp
+     1>ChangeRegisters.cpp(194): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191) : 参见“strncpy”的声明
+     1>ChangeRegisters.cpp(195): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191) : 参见“strncpy”的声明
+     1>ChangeRegisters.cpp(196): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191) : 参见“strncpy”的声明
+     1>ChangeRegisters.cpp(197): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191) : 参见“strncpy”的声明
+     1>ChangeRegisters.cpp(198): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191) : 参见“strncpy”的声明
+     1>ChangeRegisters.cpp(811): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+     1>ChangeRegisters.cpp(939): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+     1>ChangeRegisters.cpp(1122): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+         HardwareListing.cpp
+         MultiLanguage.cpp
+     1>..\Application\MultiLanguage.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /Ibusmaster_debug\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /nologo /fo"busmaster_debug\CAN_Kvaser_CAN.res" CAN_Kvaser_CAN.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\CAN_Kvaser_CAN\busmaster_debug\CAN_Kvaser_CAN.dll) does not match the Linker's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\bin\busmaster_debug\CAN_Kvaser_CAN.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       PreLinkEvent:
+         copy "%TMP%\canlib32.lib" ".\..\bin\libs\busmaster_debug\canlib32.lib"
+         del "%TMP%\canlib32.lib"
+         
+         :VCEnd
+         系统找不到指定的文件。
+         找不到 C:\Users\x\AppData\Local\Temp\canlib32.lib
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/bin/busmaster_debug\CAN_Kvaser_CAN.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 EXTERNAL/Lib/MS/canlib32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/PDB/CAN_Kvaser_CAN.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_Kvaser_CAN.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib"
+          /DLL busmaster_debug\CAN_Kvaser_CAN.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/CAN_Kvaser_CAN/AcceptanceFilterDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/CAN_Kvaser_CAN/CAN_Kvaser_CAN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/CAN_Kvaser_CAN/CANRegAnalysis.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/CAN_Kvaser_CAN/ChangeRegisters.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/CAN_Kvaser_CAN/HardwareListing.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/CAN_Kvaser_CAN/MultiLanguage.obj
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\CommonClass.lib
+            正在创建库 C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_Kvaser_CAN.lib 和对象 C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\CAN_Kvaser_CAN.exp
+         CAN_Kvaser_CAN.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\CAN_Kvaser_CAN\busmaster_debug\CAN_Kvaser_CAN.dll
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\CAN_Kvaser_CAN\CAN_Kvaser_CAN.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.53

@@ -1,0 +1,65 @@
+﻿生成启动时间为 2015/11/18 10:42:13。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\BusEmulation\BusEmulation.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>Midl:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\midl.exe /D NDEBUG /W1 /nologo /char signed /env win32 /Oicf /h "BusEmulation.h" /iid "BusEmulation_i.c" /proxy "BusEmulation_p.c" /tlb "busmaster_debug\BusEmulation.tlb" BusEmulation.idl 
+         Processing .\BusEmulation.idl
+         BusEmulation.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\ocidl.idl
+         ocidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\oleidl.idl
+         oleidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\servprov.idl
+         servprov.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\urlmon.idl
+         urlmon.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\msxml.idl
+         msxml.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\oaidl.acf
+         oaidl.acf
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\ocidl.acf
+         ocidl.acf
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BusEmulation/" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BusEmulation.cpp SimENG.cpp
+         BusEmulation.cpp
+         SimENG.cpp
+         正在生成代码...
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BusEmulation/" /Fd"busmaster_debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt BusEmulation_i.c
+         BusEmulation_i.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BusEmulation/" /Fd"busmaster_debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt BusEmulation_p.c dlldata.c
+         BusEmulation_p.c
+         dlldata.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /l"0x0409" /Ibusmaster_debug\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /nologo /fo"busmaster_debug\BusEmulation.res" BusEmulation.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\BusEmulation\busmaster_debug\BusEmulation.exe) does not match the Linker's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\BIN\busmaster_debug\BusEmulation.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/BIN/busmaster_debug\BusEmulation.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 RpcRT4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/PDB/BusEmulation.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"busmaster_debug\BusEmulation.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib" busmaster_debug\BusEmulation.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BusEmulation/BusEmulation.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BusEmulation/SimENG.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BusEmulation/BusEmulation_i.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BusEmulation/BusEmulation_p.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BusEmulation/dlldata.obj
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+         BusEmulation.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\BusEmulation\busmaster_debug\BusEmulation.exe
+       PostBuildEvent:
+         "C:\XDiag\uoncore\busmaster\Sources\BIN/busmaster_debug\BusEmulation.exe" /RegServer
+         :VCEnd
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\BusEmulation\BusEmulation.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.73

@@ -1,0 +1,143 @@
+﻿生成启动时间为 2015/11/18 10:41:05。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\DataTypes\DataTypes.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D NDEBUG /D _LIB /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"DataTypes_StdAfx.h" /Fp"busmaster_debug\DataTypes.pch" /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\XDiag\uoncore\busmaster\Sources\/Localization/include" Cluster.cpp Defines_FlexRay.cpp FEALData.cpp Filter_Datatypes.cpp FLEXRAY_Datatypes.cpp J1939_DataTypes.cpp Log_Datatypes.cpp MainSubEntry.cpp MsgBufVSE.cpp MsgBufVVSE.cpp MsgSignal_Datatypes.cpp ProjConfig_DataTypes.cpp Struct_BUS.cpp UDS_DataTypes.cpp
+         Cluster.cpp
+     1>Cluster.cpp(893): warning C4018: “<”: 有符号/无符号不匹配
+     1>Cluster.cpp(961): warning C4389: “!=”: 有符号/无符号不匹配
+     1>Cluster.cpp(981): warning C4389: “==”: 有符号/无符号不匹配
+         Defines_FlexRay.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>Defines_FlexRay.cpp(211): warning C4244: “初始化”: 从“double”转换到“UINT”，可能丢失数据
+     1>Defines_FlexRay.cpp(224): warning C4244: “初始化”: 从“double”转换到“UINT”，可能丢失数据
+     1>Defines_FlexRay.cpp(430): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>Defines_FlexRay.cpp(463): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Defines_FlexRay.cpp(468): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Defines_FlexRay.cpp(473): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Defines_FlexRay.cpp(538): warning C4239: 使用了非标准扩展:“初始化”: 从“CCompuMethodEx”转换到“CCompuMethodEx &”
+                 非常量引用只能绑定到左值
+         FEALData.cpp
+         Filter_Datatypes.cpp
+     1>Filter_Datatypes.cpp(210): warning C4244: “初始化”: 从“time_t”转换到“UINT”，可能丢失数据
+     1>Filter_Datatypes.cpp(1197): warning C4244: “=”: 从“INT”转换到“BYTE”，可能丢失数据
+     1>Filter_Datatypes.cpp(1205): warning C4244: “=”: 从“INT”转换到“BYTE”，可能丢失数据
+         FLEXRAY_Datatypes.cpp
+         J1939_DataTypes.cpp
+     1>J1939_DataTypes.cpp(271): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(272): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(273): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(275): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(276): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(278): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(279): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(280): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(281): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(283): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(284): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(285): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(286): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(289): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(290): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(291): warning C4996: '_tcsnset': This function or variable may be unsafe. Consider using _tcsnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1588) : 参见“_tcsnset”的声明
+     1>J1939_DataTypes.cpp(313): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(316): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(319): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(322): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(325): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(328): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(331): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(335): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(338): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(341): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(344): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(347): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(350): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(353): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(356): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>J1939_DataTypes.cpp(359): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+         Log_Datatypes.cpp
+     1>Log_Datatypes.cpp(353): warning C4245: “=”: 从“int”转换到“UINT”，有符号/无符号不匹配
+     1>Log_Datatypes.cpp(354): warning C4245: “=”: 从“int”转换到“UINT”，有符号/无符号不匹配
+     1>Log_Datatypes.cpp(527): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(200) : 参见“strtok”的声明
+     1>Log_Datatypes.cpp(528): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(200) : 参见“strtok”的声明
+         MainSubEntry.cpp
+     1>MainSubEntry.cpp(36): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : 参见“_tcsset”的声明
+     1>MainSubEntry.cpp(37): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : 参见“_tcsset”的声明
+     1>MainSubEntry.cpp(38): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : 参见“_tcsset”的声明
+     1>MainSubEntry.cpp(39): warning C4996: '_tcsset': This function or variable may be unsafe. Consider using _tcsset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1624) : 参见“_tcsset”的声明
+         MsgBufVSE.cpp
+         MsgBufVVSE.cpp
+         MsgSignal_Datatypes.cpp
+     1>MsgSignal_Datatypes.cpp(240): warning C4244: “初始化”: 从“double”转换到“UINT64”，可能丢失数据
+         ProjConfig_DataTypes.cpp
+         Struct_BUS.cpp
+         UDS_DataTypes.cpp
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\DataTypes\busmaster_debug\DataTypes.lib) does not match the Library's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib" /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /NOLOGO C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/Cluster.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/Defines_FlexRay.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/FEALData.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/Filter_Datatypes.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/FLEXRAY_Datatypes.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/J1939_DataTypes.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/Log_Datatypes.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/MainSubEntry.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/MsgBufVSE.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/MsgBufVVSE.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/MsgSignal_Datatypes.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/ProjConfig_DataTypes.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/Struct_BUS.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/DataTypes/UDS_DataTypes.obj
+         DataTypes.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\DataTypes\busmaster_debug\DataTypes.lib
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\DataTypes\DataTypes.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.33

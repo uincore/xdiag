@@ -1,0 +1,43 @@
+﻿生成启动时间为 2015/11/18 10:43:06。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\LIN_PEAK_USB\LIN_PEAK_USB.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /I..\Include /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D WINVER=0x0502 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_PEAK_USB/" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\DIL_Interface\CommanDIL_LIN.cpp HardwareListing.cpp LIN_PEAK_USB.cpp LIN_PEAK_USB_Channel.cpp LIN_PEAK_USB_Network.cpp LIN_PEAK_USB_stdafx.cpp
+         CommanDIL_LIN.cpp
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(472): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(544): warning C4244: “=”: 从“unsigned short”转换到“UCHAR”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(797): warning C4018: “>=”: 有符号/无符号不匹配
+         HardwareListing.cpp
+         LIN_PEAK_USB.cpp
+     1>LIN_PEAK_USB.cpp(492): warning C4018: “<”: 有符号/无符号不匹配
+     1>LIN_PEAK_USB.cpp(540): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+     1>LIN_PEAK_USB.cpp(554): warning C4244: “=”: 从“LONGLONG”转换到“unsigned long”，可能丢失数据
+     1>LIN_PEAK_USB.cpp(510): warning C4101: “sLinMsg”: 未引用的局部变量
+     1>LIN_PEAK_USB.cpp(810): warning C4101: “nErr”: 未引用的局部变量
+     1>LIN_PEAK_USB.cpp(811): warning C4101: “ucIndex”: 未引用的局部变量
+     1>LIN_PEAK_USB.cpp(880): warning C4018: “>=”: 有符号/无符号不匹配
+         LIN_PEAK_USB_Channel.cpp
+         LIN_PEAK_USB_Network.cpp
+         LIN_PEAK_USB_stdafx.cpp
+         正在生成代码...
+     1>c:\xdiag\uoncore\busmaster\sources\lin_peak_usb\lin_peak_usb.cpp(1583): warning C4700: 使用了未初始化的局部变量“hActionEvent”
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /nologo /fo"busmaster_debug\LIN_PEAK_USB.res" LIN_PEAK_USB.rc 
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /nologo /fo"busmaster_debug\LIN_PEAK_USBJPN.res" LIN_PEAK_USBJPN.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\LIN_PEAK_USB\busmaster_debug\LIN_PEAK_USB.dll) does not match the Linker's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\bin\busmaster_debug\LIN_PEAK_USB.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/bin/busmaster_debug\LIN_PEAK_USB.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib" /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /NODEFAULTLIB:daouuid.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/PDB/LIN_PEAK_USB.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\LIN_PEAK_USB.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib" /DLL busmaster_debug\LIN_PEAK_USB.res
+         busmaster_debug\LIN_PEAK_USBJPN.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_PEAK_USB/CommanDIL_LIN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_PEAK_USB/HardwareListing.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_PEAK_USB/LIN_PEAK_USB.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_PEAK_USB/LIN_PEAK_USB_Channel.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_PEAK_USB/LIN_PEAK_USB_Network.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_PEAK_USB/LIN_PEAK_USB_stdafx.obj
+            正在创建库 C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\LIN_PEAK_USB.lib 和对象 C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\LIN_PEAK_USB.exp
+         LIN_PEAK_USB.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\LIN_PEAK_USB\busmaster_debug\LIN_PEAK_USB.dll
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\LIN_PEAK_USB\LIN_PEAK_USB.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.79

@@ -1,0 +1,876 @@
+﻿生成启动时间为 2015/11/18 10:47:45。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\Application\BUSMASTER.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+         c:\xdiag\uoncore\busmaster\sources\application\ldfparser.y contains 64 shift/reduce conflicts.
+       Midl:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\midl.exe /D NDEBUG /W1 /nologo /char signed /env win32 /h "BUSMASTER_Interface.h" /dlldata "dlldata.c" /iid "BUSMASTER_Interface.c" /tlb "BUSMASTER.tlb" BUSMASTER.idl 
+         Processing .\BUSMASTER.idl
+         BUSMASTER.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1A\include\oaidl.acf
+         oaidl.acf
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0009 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0010 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0011 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : tagTxBlock_Usr (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0012 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : __MIDL___MIDL_itf_BUSMASTER_0000_0000_0013 (0x800288C6)
+     1>midl\oleaut32.dll : warning MIDL2368: error generating type library, ignored : Could not set UUID : tagLoggingBlockUsr (0x800288C6)
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D NDEBUG /D WIN32 /D _WINDOWS /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release/CAN_Monitor.pch" /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/" /Fd".\Release/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp AppServices_Impl.cpp BUSMASTER.cpp BusmasterDump.cpp BusStatisticCAN.cpp BusStatisticLIN.cpp BusStatistics.cpp BusStatisticsDlg.cpp CGCtrl.cpp CNVTCImageList.cpp CNVTCToolBar.cpp ConfigAdapter.cpp ConfigData.cpp ConfigDetails.cpp ConfigMsgDispPropPg.cpp ConfigMsgLogDlg.cpp DatabaseDissociateDlg.cpp DisplayIntMsg.cpp DriverInfoDlg.cpp ElementSelection.cpp FibexClass.cpp ChannelConfigurationDlg.cpp FIBEX_Structs.cpp Flags.cpp FlexRayDatabaseDissociateDlg.cpp FlexRayNetworkStats.cpp FlexRayNetworkStatsDlg.cpp FlexTxHandler.cpp GraphConfiguration.cpp GraphElement.cpp GraphList.cpp GraphParameters.cpp InterfaceGetter.cpp J1939TimeOutCfg.cpp ldfparser.cpp LINBusStatisticsDlg.cpp MainFrm.cpp MDIChildBase.cpp MessageAttrib.cpp MessageDetailsDlg.cpp MessageInterpretation.cpp MessageList.cpp MsgBufferConfigPage.cpp MsgFilterConfigPage.cpp MsgFrmtWnd.cpp MsgIDAttr.cpp MsgSgDetView.cpp MsgSgTreeView.cpp MsgSignal.cpp MsgSignalDBWnd.cpp MsgWndHdrInfo.cpp MsgWndThread.cpp MultiLanguage.cpp NetworkStatistics.cpp NodeUtil_Flexray.cpp NotificListbox.cpp NotificWnd.cpp ParserHelper.cpp PPageMessage.cpp Properties.cpp RxMsgList.cpp SigGrphConfigDlg.cpp SigGrphWndHandler.cpp SignalDetailsDlg.cpp SignalMatrix.cpp Splash.cpp SplFileDlg.cpp StdAfx.cpp Struct.cpp TimeManager.cpp TreeItemParam.cpp TSEditorHandler.cpp TSExecutorHandler.cpp TxHandler.cpp TxHandlerLIN.cpp TxMsgWndJ1939.cpp UIThread.cpp Utility.cpp ValueDescriptionDlg.cpp WaveFormDataHandler.cpp WaveformSelectionDlg.cpp WaveformTransmitter.cpp WrapperErrorLogger.cpp
+         Application.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+     1>c:\xdiag\uoncore\busmaster\sources\application\Application.h(903): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191) : 参见“strncpy”的声明
+     1>Application.cpp(583): warning C4100: “pApplication”: 未引用的形参
+         AppServices_Impl.cpp
+         BUSMASTER.cpp
+     1>C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109) : 参见“DEF_FILE_PATH”的前一个定义
+     1>BUSMASTER.cpp(222): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(248) : 参见“strcmpi”的声明
+     1>BUSMASTER.cpp(223): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(248) : 参见“strcmpi”的声明
+         BusmasterDump.cpp
+     1>BusmasterDump.cpp(27): warning C4244: “参数”: 从“unsigned int”转换到“char”，可能丢失数据
+         BusStatisticCAN.cpp
+         BusStatisticLIN.cpp
+         BusStatistics.cpp
+         BusStatisticsDlg.cpp
+         CGCtrl.cpp
+         CNVTCImageList.cpp
+         CNVTCToolBar.cpp
+         ConfigAdapter.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+     1>ConfigAdapter.cpp(135): warning C4100: “sReplayFile”: 未引用的形参
+         ConfigData.cpp
+         ConfigDetails.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         ConfigMsgDispPropPg.cpp
+         ConfigMsgLogDlg.cpp
+     1>ConfigMsgLogDlg.cpp(1126): warning C4244: “参数”: 从“int”转换到“USHORT”，可能丢失数据
+         DatabaseDissociateDlg.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         DisplayIntMsg.cpp
+         DriverInfoDlg.cpp
+         ElementSelection.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         FibexClass.cpp
+     1>FibexClass.cpp(354): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(424): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(441): warning C4244: “=”: 从“unsigned int”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(503): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(504): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(505): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(642): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(703): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(720): warning C4244: “=”: 从“unsigned int”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(780): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(781): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(782): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(969): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(971): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(1079): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(1080): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(1111): warning C4244: “=”: 从“UINT”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(1128): warning C4244: “=”: 从“unsigned int”转换到“unsigned short”，可能丢失数据
+     1>FibexClass.cpp(1202): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1203): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1212): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1213): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1248): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1249): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1281): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1282): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1297): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(1298): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+     1>FibexClass.cpp(2149): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2154): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2159): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2164): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2169): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2174): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2179): warning C4244: “=”: 从“long”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(2184): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2189): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2194): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2203): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2208): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2213): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2218): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2223): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2228): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2233): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2238): warning C4244: “=”: 从“long”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(2243): warning C4244: “=”: 从“long”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(2248): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2253): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2258): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2263): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2268): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2273): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2278): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2283): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2288): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2293): warning C4244: “=”: 从“long”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(2298): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2303): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2527): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2532): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2547): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2552): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2557): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2562): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2572): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2577): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2582): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2587): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2592): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2597): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2615): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2620): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2625): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2630): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2635): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2640): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>FibexClass.cpp(2658): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(2663): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\xdiag\uoncore\busmaster\sources\application\CFibexEntityData.h(20): warning C4005: “INVALID_STRING”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\application\NodeUtil_Flexray.h(12) : 参见“INVALID_STRING”的前一个定义
+     1>FibexClass.cpp(3776): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(4131): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(4142): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(4186): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(4196): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(4249): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(4300): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FibexClass.cpp(4310): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         ChannelConfigurationDlg.cpp
+     1>ChannelConfigurationDlg.cpp(552): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ChannelConfigurationDlg.cpp(610): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         FIBEX_Structs.cpp
+         Flags.cpp
+         FlexRayDatabaseDissociateDlg.cpp
+         FlexRayNetworkStats.cpp
+         FlexRayNetworkStatsDlg.cpp
+     1>FlexRayNetworkStatsDlg.cpp(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(293): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(297): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(301): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(305): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(309): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(314): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(318): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>FlexRayNetworkStatsDlg.cpp(334): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         FlexTxHandler.cpp
+         GraphConfiguration.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         GraphElement.cpp
+         GraphList.cpp
+         GraphParameters.cpp
+         InterfaceGetter.cpp
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         J1939TimeOutCfg.cpp
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ldfparser.cpp
+     1>ldfparser.cpp(5): warning C4603: “YYBISON”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(7): warning C4603: “BEGINLOGTOKEN”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(8): warning C4603: “ENDLOGTOKEN”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(9): warning C4603: “DATETOKEN”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(10): warning C4603: “FULLTIME”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(11): warning C4603: “BASE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(12): warning C4603: “TIMEMODE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(13): warning C4603: “NUMBER”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(14): warning C4603: “DOUBLEVAL”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(15): warning C4603: “DATE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(16): warning C4603: “TIME”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(17): warning C4603: “STDMSG”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(18): warning C4603: “EXTMSG”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(19): warning C4603: “STDRMSG”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(20): warning C4603: “EXTRMSG”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(21): warning C4603: “MSGDIR”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(22): warning C4603: “EQUAL”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(23): warning C4603: “LENGTHTOKEN”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(24): warning C4603: “BITCOUNTTOKEN”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(25): warning C4603: “LINEEND”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(26): warning C4603: “TIMESTAMPTOKEN”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(27): warning C4603: “ENDOFSTATEMENT”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(28): warning C4603: “KBPS”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(29): warning C4603: “LIN_DESCRIPTION_FILE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(30): warning C4603: “LIN_PROTOCOL_VERSION”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(31): warning C4603: “LIN_LANGUAGE_VERSION”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(32): warning C4603: “LIN_SPEED”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(33): warning C4603: “SIGNAL_REPRESENTATION”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(34): warning C4603: “LOGICAL_VALUE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(35): warning C4603: “FLOATNUMBER”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(36): warning C4603: “CONSTANT”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(37): warning C4603: “SIGNALS”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(38): warning C4603: “DIAGNOSTIC_SIGNALS”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(39): warning C4603: “FRAMES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(40): warning C4603: “SPORADIC_FRAMES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(41): warning C4603: “EVENT_TRIGGERED_FRAMES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(42): warning C4603: “DIAGNOSTIC_FRAMES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(43): warning C4603: “SIGNAL_ENCODING_TYPES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(44): warning C4603: “PHYSICAL_VALUE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(45): warning C4603: “NODE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(46): warning C4603: “OPENBRACE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(47): warning C4603: “CLOSEBRACE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(48): warning C4603: “MASTER”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(49): warning C4603: “SLAVES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(50): warning C4603: “MS”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(51): warning C4603: “SCHEDULE_TABLES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(52): warning C4603: “DELAY”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(53): warning C4603: “ASSIGNFRAMEID”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(54): warning C4603: “ASSIGNFRAMEIDRANGE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(55): warning C4603: “UNASSIGNFRAMEID”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(56): warning C4603: “ASSIGNNAD”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(57): warning C4603: “FREEFORMAT”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(58): warning C4603: “CONDITIONALCHANGENAD”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(59): warning C4603: “DATADUMP”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(60): warning C4603: “SAVECONFIGURATION”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(61): warning C4603: “NODE_ATTRIBUTES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(62): warning C4603: “LIN_PROTOCOL”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(63): warning C4603: “CONFIGURED_NAD”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(64): warning C4603: “INITIAL_NAD”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(65): warning C4603: “PRODUCT_ID”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(66): warning C4603: “RESPONSE_ERROR”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(67): warning C4603: “FAULT_STATE_SIGNALS”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(68): warning C4603: “P2_MIN”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(69): warning C4603: “ST_MIN”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(70): warning C4603: “N_AS_TIMEOUT”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(71): warning C4603: “N_CR_TIMEOUT”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(72): warning C4603: “CONFIGURABLE_FRAMES”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(73): warning C4603: “COLONE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(74): warning C4603: “DECNUMBER”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(75): warning C4603: “HEXNUMBER”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(76): warning C4603: “STRING”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(77): warning C4603: “IDENTIFIER”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 ldfparser.cpp(80) : 使用预编译头
+     1>ldfparser.cpp(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>ldfparser.cpp(829): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>ldfparser.cpp(1117): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+     1>ldfparser.cpp(1449): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ldfparser.cpp(1459): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ldfparser.cpp(1469): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ldfparser.cpp(1479): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         LINBusStatisticsDlg.cpp
+         MainFrm.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+     1>c:\xdiag\uoncore\busmaster\sources\uds_protocol\UDS_Resource.h(11): warning C4005: “IDC_COMBO_CHANNEL”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\application\resource.h(351) : 参见“IDC_COMBO_CHANNEL”的前一个定义
+     1>c:\xdiag\uoncore\busmaster\sources\uds_protocol\UDS_Resource.h(15): warning C4005: “IDC_EDIT_DATA”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\application\resource.h(365) : 参见“IDC_EDIT_DATA”的前一个定义
+     1>c:\xdiag\uoncore\busmaster\sources\uds_protocol\UDS_Resource.h(25): warning C4005: “IDM_UDS”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\application\resource.h(1120) : 参见“IDM_UDS”的前一个定义
+     1>c:\xdiag\uoncore\busmaster\sources\uds_protocol\UDS_Resource.h(27): warning C4005: “IDD_SETTINGS_UDS”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\application\resource.h(1121) : 参见“IDD_SETTINGS_UDS”的前一个定义
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\xdiag\uoncore\busmaster\sources\application\Resource.h(351): warning C4005: “IDC_COMBO_CHANNEL”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\uds_protocol\UDS_Resource.h(11) : 参见“IDC_COMBO_CHANNEL”的前一个定义
+     1>c:\xdiag\uoncore\busmaster\sources\application\Resource.h(365): warning C4005: “IDC_EDIT_DATA”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\uds_protocol\UDS_Resource.h(15) : 参见“IDC_EDIT_DATA”的前一个定义
+     1>c:\xdiag\uoncore\busmaster\sources\application\Resource.h(1120): warning C4005: “IDM_UDS”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\uds_protocol\UDS_Resource.h(25) : 参见“IDM_UDS”的前一个定义
+     1>c:\xdiag\uoncore\busmaster\sources\application\Resource.h(1121): warning C4005: “IDD_SETTINGS_UDS”: 宏重定义
+                 c:\xdiag\uoncore\busmaster\sources\uds_protocol\UDS_Resource.h(27) : 参见“IDD_SETTINGS_UDS”的前一个定义
+     1>MainFrm.cpp(7831): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>MainFrm.cpp(11261): warning C4244: “=”: 从“DWORD”转换到“SHORT”，可能丢失数据
+     1>MainFrm.cpp(13121): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>MainFrm.cpp(13966): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MainFrm.cpp(14375): warning C4244: “=”: 从“int”转换到“USHORT”，可能丢失数据
+     1>MainFrm.cpp(14574): warning C4244: “=”: 从“int”转换到“USHORT”，可能丢失数据
+     1>MainFrm.cpp(15066): warning C4244: “=”: 从“int”转换到“USHORT”，可能丢失数据
+     1>MainFrm.cpp(15679): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>MainFrm.cpp(15728): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>MainFrm.cpp(15732): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>MainFrm.cpp(15736): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>MainFrm.cpp(16957): warning C4244: “=”: 从“DWORD”转换到“SHORT”，可能丢失数据
+     1>MainFrm.cpp(17071): warning C4244: “=”: 从“unsigned long”转换到“SHORT”，可能丢失数据
+     1>MainFrm.cpp(18952): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>MainFrm.cpp(19053): warning C4244: “参数”: 从“UINT”转换到“UCHAR”，可能丢失数据
+     1>C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(784): warning C4244: “=”: 从“int”转换到“USHORT”，可能丢失数据
+                 C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(779): 编译类 模板 成员函数“void SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData(SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS> &,xmlNodeSetPtr,xmlDocPtr,bool &,ETYPE_BUS)”时
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN
+                 ]
+                 MainFrm.cpp(14528): 参见对正在编译的函数 模板 实例化“void SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::pbSetConfigData(SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS> &,xmlNodeSetPtr,xmlDocPtr,bool &,ETYPE_BUS)”的引用
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN
+                 ]
+                 c:\xdiag\uoncore\busmaster\sources\application\ConfigDetails.h(150): 参见对正在编译的类 模板 实例化“SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>”的引用
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN
+                 ]
+     1>C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(934): warning C4244: “=”: 从“int”转换到“USHORT”，可能丢失数据
+                 C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(918): 编译类 模板 成员函数“int SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::nSetXMLConfigData(xmlDocPtr &,ETYPE_BUS)”时
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN
+                 ]
+                 MainFrm.cpp(14320): 参见对正在编译的函数 模板 实例化“int SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::nSetXMLConfigData(xmlDocPtr &,ETYPE_BUS)”的引用
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN
+                 ]
+     1>C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(977): warning C4244: “=”: 从“int”转换到“USHORT”，可能丢失数据
+     1>C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(858): warning C4244: “=”: 从“unsigned int”转换到“USHORT”，可能丢失数据
+                 C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(855): 编译类 模板 成员函数“int SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::nGetFiltersFromName(SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS> &,std::map<_Kty,_Ty> &)”时
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN,
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+                 C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(825): 参见对正在编译的函数 模板 实例化“int SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::nGetFiltersFromName(SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS> &,std::map<_Kty,_Ty> &)”的引用
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN,
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+                 C:\XDiag\uoncore\busmaster\Sources\DataTypes/Filter_DataTypes.h(401): 编译类 模板 成员函数“SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::SFILTERAPPLIED(void)”时
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN
+                 ]
+                 MainFrm.cpp(427): 参见对正在编译的函数 模板 实例化“SFILTERAPPLIED<SFRAMEINFO_BASIC_BUS>::SFILTERAPPLIED(void)”的引用
+                 with
+                 [
+                     SFRAMEINFO_BASIC_BUS=tagSFRAMEINFO_BASIC_CAN
+                 ]
+         MDIChildBase.cpp
+         MessageAttrib.cpp
+         MessageDetailsDlg.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+     1>MessageDetailsDlg.cpp(495): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+         MessageInterpretation.cpp
+         MessageList.cpp
+         MsgBufferConfigPage.cpp
+         MsgFilterConfigPage.cpp
+         MsgFrmtWnd.cpp
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>MsgFrmtWnd.cpp(1224): warning C4244: “参数”: 从“__int64”转换到“UINT”，可能丢失数据
+     1>MsgFrmtWnd.cpp(1583): warning C4244: “参数”: 从“__int64”转换到“UINT”，可能丢失数据
+     1>MsgFrmtWnd.cpp(1810): warning C4018: “>”: 有符号/无符号不匹配
+         MsgIDAttr.cpp
+         MsgSgDetView.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+     1>MsgSgDetView.cpp(398): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(412): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(565): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(586): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(702): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(716): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(1318): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(1332): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(1600): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MsgSgDetView.cpp(1614): warning C4018: “>=”: 有符号/无符号不匹配
+         MsgSgTreeView.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         MsgSignal.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>MsgSignal.cpp(1421): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>MsgSignal.cpp(1432): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>MsgSignal.cpp(4499): warning C4018: “>”: 有符号/无符号不匹配
+     1>MsgSignal.cpp(4500): warning C4018: “<”: 有符号/无符号不匹配
+         MsgSignalDBWnd.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         MsgWndHdrInfo.cpp
+         MsgWndThread.cpp
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MultiLanguage.cpp
+     1>MultiLanguage.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+         NetworkStatistics.cpp
+     1>NetworkStatistics.cpp(502): warning C4389: “==”: 有符号/无符号不匹配
+     1>NetworkStatistics.cpp(510): warning C4018: “<”: 有符号/无符号不匹配
+     1>NetworkStatistics.cpp(542): warning C4018: “<”: 有符号/无符号不匹配
+     1>NetworkStatistics.cpp(628): warning C4239: 使用了非标准扩展:“参数”: 从“WINDOWPLACEMENT”转换到“WINDOWPLACEMENT &”
+                 非常量引用只能绑定到左值
+         NodeUtil_Flexray.cpp
+         NotificListbox.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+         NotificWnd.cpp
+         ParserHelper.cpp
+     1>ParserHelper.cpp(269): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(270): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(280): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(282): warning C4244: “=”: 从“const int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(290): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+     1>ParserHelper.cpp(306): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+     1>ParserHelper.cpp(327): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(342): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(344): warning C4244: “=”: 从“const int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(366): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+     1>ParserHelper.cpp(385): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(400): warning C4244: “=”: 从“int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(402): warning C4244: “=”: 从“const int”转换到“unsigned short”，可能丢失数据
+     1>ParserHelper.cpp(423): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+     1>ParserHelper.cpp(515): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+     1>ParserHelper.cpp(527): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+     1>ParserHelper.cpp(549): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+     1>ParserHelper.cpp(557): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+     1>ParserHelper.cpp(567): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+         PPageMessage.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         Properties.cpp
+         RxMsgList.cpp
+     1>RxMsgList.cpp(152): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>RxMsgList.cpp(156): warning C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\tchar.h(1523) : 参见“_tcsncpy”的声明
+         SigGrphConfigDlg.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         SigGrphWndHandler.cpp
+         SignalDetailsDlg.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+     1>SignalDetailsDlg.cpp(1374): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SignalDetailsDlg.cpp(1406): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SignalDetailsDlg.cpp(1457): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>SignalDetailsDlg.cpp(1734): warning C4018: “<”: 有符号/无符号不匹配
+     1>SignalDetailsDlg.cpp(1843): warning C4018: “>”: 有符号/无符号不匹配
+     1>SignalDetailsDlg.cpp(1855): warning C4018: “<”: 有符号/无符号不匹配
+         SignalMatrix.cpp
+         Splash.cpp
+         SplFileDlg.cpp
+         StdAfx.cpp
+         Struct.cpp
+         TimeManager.cpp
+         TreeItemParam.cpp
+         TSEditorHandler.cpp
+         TSExecutorHandler.cpp
+         TxHandler.cpp
+         TxHandlerLIN.cpp
+         TxMsgWndJ1939.cpp
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>TxMsgWndJ1939.cpp(1099): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+         UIThread.cpp
+         Utility.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         ValueDescriptionDlg.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\application\SectionNames.h(109): warning C4005: “DEF_FILE_PATH”: 宏重定义
+                 C:\XDiag\uoncore\busmaster\Sources\include/XMLDefines.h(35) : 参见“DEF_FILE_PATH”的前一个定义
+         WaveFormDataHandler.cpp
+     1>WaveFormDataHandler.cpp(473): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>WaveFormDataHandler.cpp(516): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>WaveFormDataHandler.cpp(581): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>WaveFormDataHandler.cpp(590): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>WaveFormDataHandler.cpp(599): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         WaveformSelectionDlg.cpp
+     1>WaveformSelectionDlg.cpp(362): warning C4244: “参数”: 从“int”转换到“short”，可能丢失数据
+         WaveformTransmitter.cpp
+     1>WaveformTransmitter.cpp(100): warning C4244: “初始化”: 从“float”转换到“UINT”，可能丢失数据
+     1>WaveformTransmitter.cpp(203): warning C4244: “初始化”: 从“float”转换到“UINT”，可能丢失数据
+     1>WaveformTransmitter.cpp(241): warning C4244: “初始化”: 从“float”转换到“UINT”，可能丢失数据
+         WrapperErrorLogger.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D NDEBUG /D WIN32 /D _WINDOWS /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/" /Fd".\Release/vc110.pdb" /Gd /TC /analyze- /errorReport:prompt LDFLexer.c
+         LDFLexer.c
+     1>LDFLexer.c(885): warning C4127: 条件表达式是常量
+     1>LDFLexer.c(903): warning C4244: “初始化”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>LDFLexer.c(908): warning C4244: “=”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>LDFLexer.c(1028): warning C4047: “=”:“int”与“char *”的间接级别不同
+     1>LDFLexer.c(1136): warning C4013: “strtoul”未定义；假设外部返回 int
+     1>LDFLexer.c(1144): warning C4047: “=”:“int”与“char *”的间接级别不同
+     1>LDFLexer.c(1148): warning C4047: “=”:“int”与“char *”的间接级别不同
+     1>LDFLexer.c(1152): warning C4047: “=”:“int”与“char *”的间接级别不同
+     1>LDFLexer.c(919): warning C4102: “find_rule”: 未引用的标签
+     1>LDFLexer.c(1467): warning C4244: “初始化”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>LDFLexer.c(1472): warning C4244: “=”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>LDFLexer.c(1492): warning C4131: “yy_try_NUL_trans”: 使用老样式声明符
+     1>LDFLexer.c(1502): warning C4244: “=”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>LDFLexer.c(1517): warning C4131: “yyunput”: 使用老样式声明符
+     1>LDFLexer.c(1634): warning C4131: “yyrestart”: 使用老样式声明符
+     1>LDFLexer.c(1649): warning C4131: “yy_switch_to_buffer”: 使用老样式声明符
+     1>LDFLexer.c(1692): warning C4131: “yy_create_buffer”: 使用老样式声明符
+     1>LDFLexer.c(1723): warning C4131: “yy_delete_buffer”: 使用老样式声明符
+     1>LDFLexer.c(1749): warning C4131: “yy_init_buffer”: 使用老样式声明符
+     1>LDFLexer.c(1766): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(711) : 参见“fileno”的声明
+     1>LDFLexer.c(1776): warning C4131: “yy_flush_buffer”: 使用老样式声明符
+     1>LDFLexer.c(1804): warning C4131: “yy_scan_buffer”: 使用老样式声明符
+     1>LDFLexer.c(1842): warning C4131: “yy_scan_string”: 使用老样式声明符
+     1>LDFLexer.c(1859): warning C4131: “yy_scan_bytes”: 使用老样式声明符
+     1>LDFLexer.c(1953): warning C4131: “yy_fatal_error”: 使用老样式声明符
+     1>LDFLexer.c(1957): warning C4013: “exit”未定义；假设外部返回 int
+     1>LDFLexer.c(2001): warning C4131: “yy_flex_alloc”: 使用老样式声明符
+     1>LDFLexer.c(2004): warning C4013: “malloc”未定义；假设外部返回 int
+     1>LDFLexer.c(2011): warning C4131: “yy_flex_realloc”: 使用老样式声明符
+     1>LDFLexer.c(2022): warning C4013: “realloc”未定义；假设外部返回 int
+     1>LDFLexer.c(2029): warning C4131: “yy_flex_free”: 使用老样式声明符
+     1>LDFLexer.c(2032): warning C4013: “free”未定义；假设外部返回 int
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D PEAK_USB_BUILD /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /nologo /fo"busmaster_debug\BUSMASTER.res" BUSMASTER.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(..\..\BIN\busmaster_debug\BUSMASTER) does not match the Linker's OutputFile property value (BUSMASTER). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/bin/busmaster_debug\BUSMASTER.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 Winmm.lib shlwapi.lib htmlhelp.lib psapi.lib /MANIFEST:NO /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/PDB/..\..\BIN\busmaster_debug\BUSMASTER.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"busmaster_debug\..\..\BIN\busmaster_debug\BUSMASTER.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DIL_Interface.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\ProjectConfiguration.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\NodeSimEx.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\FrameProcessor.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\Replay.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\SignalWatch.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\Filter.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\CommonClass.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\PSDI_CAN.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\TXWindow.lib" busmaster_debug\BUSMASTER.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/Application.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/AppServices_Impl.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/BUSMASTER.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/BusmasterDump.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/BusStatisticCAN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/BusStatisticLIN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/BusStatistics.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/BusStatisticsDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/CGCtrl.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/CNVTCImageList.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/CNVTCToolBar.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ConfigAdapter.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ConfigData.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ConfigDetails.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ConfigMsgDispPropPg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ConfigMsgLogDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/DatabaseDissociateDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/DisplayIntMsg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/DriverInfoDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ElementSelection.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/FibexClass.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ChannelConfigurationDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/FIBEX_Structs.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/Flags.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/FlexRayDatabaseDissociateDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/FlexRayNetworkStats.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/FlexRayNetworkStatsDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/FlexTxHandler.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/GraphConfiguration.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/GraphElement.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/GraphList.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/GraphParameters.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/InterfaceGetter.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/J1939TimeOutCfg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/LDFLexer.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ldfparser.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/LINBusStatisticsDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MainFrm.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MDIChildBase.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MessageAttrib.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MessageDetailsDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MessageInterpretation.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MessageList.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgBufferConfigPage.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgFilterConfigPage.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgFrmtWnd.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgIDAttr.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgSgDetView.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgSgTreeView.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgSignal.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgSignalDBWnd.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgWndHdrInfo.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MsgWndThread.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/MultiLanguage.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/NetworkStatistics.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/NodeUtil_Flexray.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/NotificListbox.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/NotificWnd.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ParserHelper.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/PPageMessage.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/Properties.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/RxMsgList.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/SigGrphConfigDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/SigGrphWndHandler.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/SignalDetailsDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/SignalMatrix.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/Splash.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/SplFileDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/StdAfx.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/Struct.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/TimeManager.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/TreeItemParam.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/TSEditorHandler.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/TSExecutorHandler.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/TxHandler.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/TxHandlerLIN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/TxMsgWndJ1939.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/UIThread.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/Utility.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/ValueDescriptionDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/WaveFormDataHandler.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/WaveformSelectionDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/WaveformTransmitter.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/BUSMASTER/WrapperErrorLogger.obj
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\CommonClass.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\DIL_Interface.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\Filter.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\FrameProcessor.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\NodeSimEx.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\ProjectConfiguration.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\PSDI_CAN.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\Replay.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\SigGrphWnd.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\SignalDefiner.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\SignalWatch.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\TestSetupEditorGUI.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\TestSuiteExecutorGUI.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\TXWindow.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\UDS_Protocol.lib
+         BUSMASTER.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\Application\busmaster_debug\..\..\BIN\busmaster_debug\BUSMASTER.exe
+       PostBuildEvent:
+         copy ".\BUSMASTER_Interface.h" "C:\XDiag\uoncore\busmaster\Sources\\bin\busmaster_debug\BUSMASTER_Interface.h"
+         copy ".\BUSMASTER_Interface.c" "C:\XDiag\uoncore\busmaster\Sources\\bin\busmaster_debug\BUSMASTER_Interface.c"
+         copy ".\busmaster_debug\BUSMASTER.tlb" "C:\XDiag\uoncore\busmaster\Sources\\bin\busmaster_debug\BUSMASTER.tlb"
+         copy ".\Res\Splsh16.bmp" "C:\XDiag\uoncore\busmaster\Sources\\bin\busmaster_debug\Splsh16.bmp"
+         
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+         系统找不到指定的文件。
+         已复制         1 个文件。
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\Application\BUSMASTER.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:48.71

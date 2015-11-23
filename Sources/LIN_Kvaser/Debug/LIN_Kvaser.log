@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/11/18 9:25:33。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\LIN_Kvaser\LIN_Kvaser.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\DIL_Interface\CommanDIL_LIN.cpp HardwareListing.cpp LIN_Kvaser.cpp LIN_Kvaser_stdafx.cpp
+         LIN_Kvaser_stdafx.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\lin_kvaser\lin_kvaser_stdafx.h(21): fatal error C1083: 无法打开包括文件:“afxwin.h”: No such file or directory
+         LIN_Kvaser.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\lin_kvaser\lin_kvaser_stdafx.h(21): fatal error C1083: 无法打开包括文件:“afxwin.h”: No such file or directory
+         HardwareListing.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\lin_kvaser\lin_kvaser_stdafx.h(21): fatal error C1083: 无法打开包括文件:“afxwin.h”: No such file or directory
+         CommanDIL_LIN.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\dil_interface\dil_interface_stdafx.h(30): fatal error C1083: 无法打开包括文件:“afxwin.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\LIN_Kvaser\LIN_Kvaser.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.23

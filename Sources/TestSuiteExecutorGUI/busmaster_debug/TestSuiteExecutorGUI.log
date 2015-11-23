@@ -1,0 +1,94 @@
+﻿生成启动时间为 2015/11/18 10:45:40。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\TestSuiteExecutorGUI\TestSuiteExecutorGUI.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\XDiag\uoncore\busmaster\Sources\/Localization/include" ExpressionExecutor.cpp ..\Application\MultiLanguage.cpp ResultView.cpp TreeViewEx.cpp TSExecutionCAN.cpp TSExecutorBase.cpp TSExecutorGUI.cpp TSExecutorGUI_ChildFrame.cpp TSExecutorLIB.cpp TSExecutorResult.cpp
+         ExpressionExecutor.cpp
+     1>ExpressionExecutor.cpp(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+         MultiLanguage.cpp
+     1>..\Application\MultiLanguage.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+         ResultView.cpp
+         TreeViewEx.cpp
+         TSExecutionCAN.cpp
+         TSExecutorBase.cpp
+         TSExecutorGUI.cpp
+         TSExecutorGUI_ChildFrame.cpp
+         TSExecutorLIB.cpp
+         TSExecutorResult.cpp
+         正在生成代码...
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/" /Fd"busmaster_debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt /I "C:\XDiag\uoncore\busmaster\Sources\/Localization/include" lexer.c parser.c
+         lexer.c
+     1>lexer.c(561): warning C4127: 条件表达式是常量
+     1>lexer.c(577): warning C4244: “初始化”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>lexer.c(587): warning C4244: “=”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>lexer.c(624): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>lexer.c(778): warning C4127: 条件表达式是常量
+     1>lexer.c(981): warning C4244: “初始化”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>lexer.c(991): warning C4244: “=”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>lexer.c(1010): warning C4131: “yy_try_NUL_trans”: 使用老样式声明符
+     1>lexer.c(1026): warning C4244: “=”: 从“int”转换到“YY_CHAR”，可能丢失数据
+     1>lexer.c(1040): warning C4131: “yyunput”: 使用老样式声明符
+     1>lexer.c(1108): warning C4127: 条件表达式是常量
+     1>lexer.c(1153): warning C4131: “yyrestart”: 使用老样式声明符
+     1>lexer.c(1168): warning C4131: “yy_switch_to_buffer”: 使用老样式声明符
+     1>lexer.c(1211): warning C4131: “yy_create_buffer”: 使用老样式声明符
+     1>lexer.c(1242): warning C4131: “yy_delete_buffer”: 使用老样式声明符
+     1>lexer.c(1268): warning C4131: “yy_init_buffer”: 使用老样式声明符
+     1>lexer.c(1285): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(711) : 参见“fileno”的声明
+     1>lexer.c(1295): warning C4131: “yy_flush_buffer”: 使用老样式声明符
+     1>lexer.c(1323): warning C4131: “yy_scan_buffer”: 使用老样式声明符
+     1>lexer.c(1361): warning C4131: “yy_scan_string”: 使用老样式声明符
+     1>lexer.c(1378): warning C4131: “yy_scan_bytes”: 使用老样式声明符
+     1>lexer.c(1472): warning C4131: “yy_fatal_error”: 使用老样式声明符
+     1>lexer.c(1520): warning C4131: “yy_flex_alloc”: 使用老样式声明符
+     1>lexer.c(1530): warning C4131: “yy_flex_realloc”: 使用老样式声明符
+     1>lexer.c(1548): warning C4131: “yy_flex_free”: 使用老样式声明符
+         parser.c
+     1>parser.c(373): warning C4131: “__yy_memcpy”: 使用老样式声明符
+     1>parser.c(488): warning C4244: “=”: 从“int”转换到“short”，可能丢失数据
+     1>parser.c(529): warning C4013: “yyerror”未定义；假设外部返回 int
+     1>parser.c(702): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>parser.c(969): warning C4013: “yy_scan_string”未定义；假设外部返回 int
+     1>parser.c(971): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>parser.c(976): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>c:\xdiag\uoncore\busmaster\sources\testsuiteexecutorgui\parser.c(779): warning C4701: 使用了可能未初始化的局部变量“yyval”
+     1>c:\xdiag\uoncore\busmaster\sources\testsuiteexecutorgui\parser.c(962): warning C4716: “yyerror”: 必须返回一个值
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /Ibusmaster_debug\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /nologo /fo"busmaster_debug\TestSuiteExecutorGUI.res" TestSuiteExecutorGUI.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\TestSuiteExecutorGUI\busmaster_debug\TestSuiteExecutorGUI.dll) does not match the Linker's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\BIN\busmaster_debug\TestSuiteExecutorGUI.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/BIN/busmaster_debug\TestSuiteExecutorGUI.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/PDB/TestSuiteExecutorGUI.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\TestSuiteExecutorGUI.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\TestSetupEditorLib.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DIL_Interface.lib"
+          /DLL busmaster_debug\TestSuiteExecutorGUI.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/ExpressionExecutor.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/lexer.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/MultiLanguage.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/parser.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/ResultView.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/TreeViewEx.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/TSExecutionCAN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/TSExecutorBase.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/TSExecutorGUI.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/TSExecutorGUI_ChildFrame.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/TSExecutorLIB.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/TestSuiteExecutorGUI/TSExecutorResult.obj
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\TestSetupEditorLib.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\DIL_Interface.lib
+            正在创建库 C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\TestSuiteExecutorGUI.lib 和对象 C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\TestSuiteExecutorGUI.exp
+         TestSuiteExecutorGUI.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\TestSuiteExecutorGUI\busmaster_debug\TestSuiteExecutorGUI.dll
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\TestSuiteExecutorGUI\TestSuiteExecutorGUI.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:32.00

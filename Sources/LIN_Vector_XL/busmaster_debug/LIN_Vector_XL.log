@@ -1,0 +1,42 @@
+﻿生成启动时间为 2015/11/18 10:43:36。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\LIN_Vector_XL\LIN_Vector_XL.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_Vector_XL/" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\DIL_Interface\CommanDIL_LIN.cpp HardwareListing.cpp LIN_Vector_XL.cpp LIN_Vector_XL_stdafx.cpp
+         CommanDIL_LIN.cpp
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(188): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(472): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(544): warning C4244: “=”: 从“unsigned short”转换到“UCHAR”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(797): warning C4018: “>=”: 有符号/无符号不匹配
+         HardwareListing.cpp
+         LIN_Vector_XL.cpp
+     1>LIN_Vector_XL.cpp(151): warning C4018: “>=”: 有符号/无符号不匹配
+     1>LIN_Vector_XL.cpp(164): warning C4244: “=”: 从“LONGLONG”转换到“unsigned long”，可能丢失数据
+     1>LIN_Vector_XL.cpp(508): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>LIN_Vector_XL.cpp(514): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>LIN_Vector_XL.cpp(588): warning C4018: “>=”: 有符号/无符号不匹配
+     1>LIN_Vector_XL.cpp(1262): warning C4018: “<”: 有符号/无符号不匹配
+     1>LIN_Vector_XL.cpp(1402): warning C4018: “<”: 有符号/无符号不匹配
+         LIN_Vector_XL_stdafx.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /nologo /fo"busmaster_debug\LIN_ISOLAR_EVE_VLIN.res" LIN_ISOLAR_EVE_VLIN.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\LIN_Vector_XL\busmaster_debug\LIN_Vector_XL.dll) does not match the Linker's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\bin\busmaster_debug\LIN_Vector_XL.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/bin/busmaster_debug/LIN_Vector_XL.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib" /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/PDB/LIN_Vector_XL.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"busmaster_debug\LIN_Vector_XL.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug/DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug/Utils.lib" /DLL busmaster_debug\LIN_ISOLAR_EVE_VLIN.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_Vector_XL/CommanDIL_LIN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_Vector_XL/HardwareListing.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_Vector_XL/LIN_Vector_XL.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/LIN_Vector_XL/LIN_Vector_XL_stdafx.obj
+            正在创建库 busmaster_debug\LIN_Vector_XL.lib 和对象 busmaster_debug\LIN_Vector_XL.exp
+         LIN_Vector_XL.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\LIN_Vector_XL\busmaster_debug\LIN_Vector_XL.dll
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\LIN_Vector_XL\LIN_Vector_XL.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.55

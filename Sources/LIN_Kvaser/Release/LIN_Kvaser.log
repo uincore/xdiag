@@ -1,0 +1,74 @@
+﻿生成启动时间为 2015/11/23 9:12:21。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\LIN_Kvaser\LIN_Kvaser.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /I..\EXTERNAL\libxml2\include /I..\EXTERNAL\iconv\include /I..\Include /IINC /Zi /nologo /W4 /WX- /Od /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D WINVER=0x0502 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/Release\/OBJ/LIN_Kvaser/" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\DIL_Interface\CommanDIL_LIN.cpp HardwareListing.cpp LIN_Kvaser.cpp LIN_Kvaser_stdafx.cpp
+         CommanDIL_LIN.cpp
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(428): warning C4244: “初始化”: 从“UINT”转换到“UCHAR”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(437): warning C4244: “return”: 从“UINT”转换到“UCHAR”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(446): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(470): warning C4244: “参数”: 从“UINT”转换到“UCHAR”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(472): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(477): warning C4244: “初始化”: 从“UINT”转换到“UCHAR”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(486): warning C4244: “return”: 从“UINT”转换到“UCHAR”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(544): warning C4244: “=”: 从“unsigned short”转换到“UCHAR”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(572): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(576): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(672): warning C4100: “dwClientId”: 未引用的形参
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(768): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(775): warning C4244: “=”: 从“int”转换到“unsigned char”，可能丢失数据
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(797): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\DIL_Interface\CommanDIL_LIN.cpp(815): warning C4244: “=”: 从“const int”转换到“unsigned char”，可能丢失数据
+         HardwareListing.cpp
+         LIN_Kvaser.cpp
+     1>c:\xdiag\uoncore\busmaster\sources\lin_kvaser\EXTERNAL\INC\canlib.h(4106): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\xdiag\uoncore\busmaster\sources\lin_kvaser\EXTERNAL\INC\canlib.h(4820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>LIN_Kvaser.cpp(73): warning C4100: “stRespMsg”: 未引用的形参
+     1>LIN_Kvaser.cpp(125): warning C4018: “>=”: 有符号/无符号不匹配
+     1>LIN_Kvaser.cpp(139): warning C4244: “=”: 从“LONGLONG”转换到“unsigned long”，可能丢失数据
+     1>LIN_Kvaser.cpp(156): warning C4245: “=”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+     1>LIN_Kvaser.cpp(167): warning C4244: “=”: 从“unsigned int”转换到“unsigned char”，可能丢失数据
+     1>LIN_Kvaser.cpp(179): warning C4244: “=”: 从“unsigned int”转换到“unsigned char”，可能丢失数据
+     1>LIN_Kvaser.cpp(184): warning C4245: “=”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+     1>LIN_Kvaser.cpp(191): warning C4245: “=”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+     1>LIN_Kvaser.cpp(197): warning C4245: “=”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+     1>LIN_Kvaser.cpp(204): warning C4245: “=”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+     1>LIN_Kvaser.cpp(359): warning C4100: “hDataEvent”: 未引用的形参
+     1>LIN_Kvaser.cpp(472): warning C4018: “>=”: 有符号/无符号不匹配
+     1>LIN_Kvaser.cpp(730): warning C4100: “asSelHwInterface”: 未引用的形参
+     1>LIN_Kvaser.cpp(755): warning C4100: “sSelHwInterface”: 未引用的形参
+     1>LIN_Kvaser.cpp(784): warning C4100: “Length”: 未引用的形参
+     1>LIN_Kvaser.cpp(784): warning C4100: “InitData”: 未引用的形参
+     1>LIN_Kvaser.cpp(1109): warning C4100: “unCntrlStatus”: 未引用的形参
+     1>LIN_Kvaser.cpp(1109): warning C4100: “hEvent”: 未引用的形参
+     1>LIN_Kvaser.cpp(1128): warning C4100: “dwClientID”: 未引用的形参
+     1>LIN_Kvaser.cpp(1221): warning C4100: “acErrorStr”: 未引用的形参
+     1>LIN_Kvaser.cpp(1234): warning C4100: “nLength”: 未引用的形参
+     1>LIN_Kvaser.cpp(1234): warning C4100: “punMsgIds”: 未引用的形参
+     1>LIN_Kvaser.cpp(1234): warning C4100: “Channel”: 未引用的形参
+     1>LIN_Kvaser.cpp(1234): warning C4100: “FilterType”: 未引用的形参
+     1>LIN_Kvaser.cpp(1248): warning C4244: “=”: 从“ECONTR_STATUS”转换到“unsigned short”，可能丢失数据
+     1>LIN_Kvaser.cpp(1273): warning C4018: “<”: 有符号/无符号不匹配
+     1>LIN_Kvaser.cpp(1384): warning C4100: “eContrParam”: 未引用的形参
+     1>LIN_Kvaser.cpp(1384): warning C4100: “nChannel”: 未引用的形参
+     1>LIN_Kvaser.cpp(1384): warning C4100: “sErrorCnt”: 未引用的形参
+     1>LIN_Kvaser.cpp(1398): warning C4100: “hWndOwner”: 未引用的形参
+         LIN_Kvaser_stdafx.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /nologo /fo"Release\LIN_Kvaser.res" LIN_Kvaser.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\LIN_Kvaser\Release\LIN_Kvaser.dll) does not match the Linker's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\bin\release\LIN_Kvaser.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/bin/release/LIN_Kvaser.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v7.1A\Lib" EXTERNAL\Lib\MS\linlib.lib EXTERNAL\Lib\MS\canlib32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/Release\/PDB/LIN_Kvaser.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\LIN_Kvaser.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/Release/DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/Release/Utils.lib" /DLL Release\LIN_Kvaser.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/Release\/OBJ/LIN_Kvaser/CommanDIL_LIN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/Release\/OBJ/LIN_Kvaser/HardwareListing.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/Release\/OBJ/LIN_Kvaser/LIN_Kvaser.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/Release\/OBJ/LIN_Kvaser/LIN_Kvaser_stdafx.obj
+            正在创建库 Release\LIN_Kvaser.lib 和对象 Release\LIN_Kvaser.exp
+         正在生成代码
+         已完成代码的生成
+         LIN_Kvaser.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\LIN_Kvaser\Release\LIN_Kvaser.dll
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\LIN_Kvaser\LIN_Kvaser.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.26

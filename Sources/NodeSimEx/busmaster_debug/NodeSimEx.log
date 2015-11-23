@@ -1,0 +1,605 @@
+﻿生成启动时间为 2015/11/18 10:45:43。
+     1>项目“C:\XDiag\uoncore\busmaster\Sources\NodeSimEx\NodeSimEx.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\XDiag\uoncore\busmaster\Sources\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D WINVER=0x0500 /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/" /Fd"busmaster_debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /I "C:\XDiag\uoncore\busmaster\Sources\/Localization/include" ..\Application\CNVTCImageList.cpp ..\Application\CNVTCToolBar.cpp AppServices.cpp AppServicesCAN.cpp AppServicesJ1939.cpp AppServicesLIN.cpp BuildProgram.cpp BusEventHandlerDlg.cpp DefineTimerHandler.cpp DLLHandlerDlg.cpp EditFrameWnd.cpp ErrHandlerDlg.cpp ErrHandlerDlgLIN.cpp EventHandlerDlg.cpp ExecuteFunc.cpp ExecuteManager.cpp ExploreMsgSg.cpp FileView.cpp FnsTreeView.cpp FunctionEditorBase.cpp FunctionEditorDoc.cpp FunctionView.cpp GlobalObj.cpp HandlerFunc.cpp IncludeHeaderDlg.cpp KeyValue.cpp MsgHandlerDlg.cpp ..\Application\MultiLanguage.cpp NodeDetailsDlg.cpp NodeSim.cpp NodeSimEx.cpp NodeSimEx_stdafx.cpp ..\Utility\OffScreenDC.cpp OutWnd.cpp SelectFunctions.cpp SetResetTimer.cpp Sim_MDIChildBase.cpp SimSysManager.cpp SimSysNodeInfo.cpp SimSysTreeView.cpp SimSysWnd.cpp UtlityDlg.cpp
+         CNVTCImageList.cpp
+         CNVTCToolBar.cpp
+         AppServices.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>AppServices.cpp(480): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>AppServices.cpp(515): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>AppServices.cpp(552): warning C4244: “=”: 从“LONGLONG”转换到“unsigned int”，可能丢失数据
+         AppServicesCAN.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>AppServicesCAN.cpp(115): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>AppServicesCAN.cpp(129): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+         AppServicesJ1939.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         AppServicesLIN.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>AppServicesLIN.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>AppServicesLIN.cpp(139): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+         BuildProgram.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>BuildProgram.cpp(104): warning C4245: “初始化”: 从“int”转换到“DWORD”，有符号/无符号不匹配
+     1>BuildProgram.cpp(333): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdlib.h(824) : 参见“_splitpath”的声明
+     1>BuildProgram.cpp(614): warning C4100: “psInfo”: 未引用的形参
+         BusEventHandlerDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+         DefineTimerHandler.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         DLLHandlerDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         EditFrameWnd.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+         ErrHandlerDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ErrHandlerDlgLIN.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         EventHandlerDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+         ExecuteFunc.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ExecuteFunc.cpp(449): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ExecuteFunc.cpp(546): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ExecuteFunc.cpp(642): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ExecuteFunc.cpp(2391): warning C4245: “=”: 从“int”转换到“DWORD”，有符号/无符号不匹配
+         ExecuteManager.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ExecuteManager.cpp(1645): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+     1>ExecuteManager.cpp(1668): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+         ExploreMsgSg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ExploreMsgSg.cpp(461): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         FileView.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FnsTreeView.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FunctionEditorBase.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         FunctionEditorDoc.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>FunctionEditorDoc.cpp(102): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>FunctionEditorDoc.cpp(138): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(139): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(140): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(141): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(142): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(146): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(147): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(154): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(156): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(167): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(168): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(171): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(174): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(176): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(180): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(182): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(186): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(188): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(192): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(194): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(198): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(200): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(203): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(205): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(209): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(211): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>FunctionEditorDoc.cpp(1441): warning C4244: “初始化”: 从“UINT”转换到“short”，可能丢失数据
+         FunctionView.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         GlobalObj.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         HandlerFunc.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>HandlerFunc.cpp(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>HandlerFunc.cpp(620): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         IncludeHeaderDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         KeyValue.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MsgHandlerDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>MsgHandlerDlg.cpp(489): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         MultiLanguage.cpp
+     1>..\Application\MultiLanguage.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+         NodeDetailsDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         NodeSim.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         NodeSimEx.cpp
+         NodeSimEx_stdafx.cpp
+         OffScreenDC.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+         OutWnd.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>OutWnd.cpp(196): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+         SelectFunctions.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SetResetTimer.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+         Sim_MDIChildBase.cpp
+         SimSysManager.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>SimSysManager.cpp(533): warning C4244: “=”: 从“int”转换到“BYTE”，可能丢失数据
+         SimSysNodeInfo.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>SimSysNodeInfo.cpp(541): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>SimSysNodeInfo.cpp(545): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>SimSysNodeInfo.cpp(782): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+         SimSysTreeView.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>SimSysTreeView.cpp(579): warning C4100: “pResult”: 未引用的形参
+     1>SimSysTreeView.cpp(840): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>SimSysTreeView.cpp(851): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>SimSysTreeView.cpp(953): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+         正在生成代码...
+     1>c:\xdiag\uoncore\busmaster\sources\nodesimex\simsystreeview.cpp(251): warning C4703: 使用了可能未初始化的本地指针变量“hNode”
+         正在编译...
+         SimSysWnd.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+         UtlityDlg.cpp
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(267): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(286): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(288) : 参见“wcscpy”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(629): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(355) : 参见“_wcsupr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(634): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(349) : 参见“_wcslwr”的声明
+     1>C:\WinDDK\7600.16385.1\inc\atl71\cstringt.h(649): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\swprintf.inl(97) : 参见“vswprintf”的声明
+     1>C:\XDiag\uoncore\busmaster\Sources\DIL_Interface/BaseDIL_J1939.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _AFXDLL /l"0x0409" /Ibusmaster_debug\ /IC:\WinDDK\7600.16385.1\inc\mfc42 /IC:\WinDDK\7600.16385.1\inc\atl71 /nologo /fo"busmaster_debug\NodeSimEx.res" NodeSimEx.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\XDiag\uoncore\busmaster\Sources\NodeSimEx\busmaster_debug\NodeSimEx.dll) does not match the Linker's OutputFile property value (C:\XDiag\uoncore\busmaster\Sources\BIN\busmaster_debug\NodeSimEx.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\XDiag\uoncore\busmaster\Sources\/BIN/busmaster_debug\NodeSimEx.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\Mfc\i386 /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/PDB/NodeSimEx.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8000000" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\NodeSimEx.lib" /MACHINE:X86 /SAFESEH "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\Utils.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DataTypes.lib"
+         "C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\DIL_Interface.lib"
+         "Winmm.lib"
+          /DLL busmaster_debug\NodeSimEx.res
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/CNVTCImageList.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/CNVTCToolBar.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/AppServices.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/AppServicesCAN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/AppServicesJ1939.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/AppServicesLIN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/BuildProgram.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/BusEventHandlerDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/DefineTimerHandler.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/DLLHandlerDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/EditFrameWnd.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/ErrHandlerDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/ErrHandlerDlgLIN.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/EventHandlerDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/ExecuteFunc.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/ExecuteManager.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/ExploreMsgSg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/FileView.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/FnsTreeView.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/FunctionEditorBase.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/FunctionEditorDoc.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/FunctionView.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/GlobalObj.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/HandlerFunc.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/IncludeHeaderDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/KeyValue.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/MsgHandlerDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/MultiLanguage.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/NodeDetailsDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/NodeSim.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/NodeSimEx.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/NodeSimEx_stdafx.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/OffScreenDC.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/OutWnd.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/SelectFunctions.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/SetResetTimer.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/Sim_MDIChildBase.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/SimSysManager.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/SimSysNodeInfo.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/SimSysTreeView.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/SimSysWnd.obj
+         C:\XDiag\uoncore\busmaster\Sources\/bin/DumpFiles/busmaster_debug\/OBJ/NodeSimEx/UtlityDlg.obj
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\DataTypes.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\Utils.lib
+         C:\XDiag\uoncore\busmaster\Sources\BIN\Libs\busmaster_debug\DIL_Interface.lib
+            正在创建库 C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\NodeSimEx.lib 和对象 C:\XDiag\uoncore\busmaster\Sources\/BIN/Libs/busmaster_debug\NodeSimEx.exp
+         NodeSimEx.vcxproj -> C:\XDiag\uoncore\busmaster\Sources\NodeSimEx\busmaster_debug\NodeSimEx.dll
+     1>已完成生成项目“C:\XDiag\uoncore\busmaster\Sources\NodeSimEx\NodeSimEx.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:27.91
